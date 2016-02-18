@@ -9,6 +9,7 @@ import (
 func TestCache(t *testing.T) {
 	assert := assert.New(t)
 	fmt.Println("Lab 1 - Part II \n---- LRU Cache ----")
+
 	// Populates entries into the Cache
 	Set(1, 10)
 	Set(2, 20)
